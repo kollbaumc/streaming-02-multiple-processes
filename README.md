@@ -1,3 +1,5 @@
+# Chris Kollbaum
+
 # streaming-02-multiple-processes
 
 > Multiple processes accessing a shared resource concurrently
@@ -24,14 +26,14 @@ Executing multiple_processes.py script.
 Read the output. Read the code. 
 Try to figure out what's going on. 
 
-1. What libraries did we import?
-1. Where do we set the task_duration?
-1. How many functions are defined? 
-1. What are the function names? 
-1. In general, what does each function do? 
-1. Where does the execution begin?
-1. How many processes do we start?
-1. How many records does each process insert?
+1. What libraries did we import? We imported sqlite3, os, time, multiprocessing, datetime, platform, and sys.
+1. Where do we set the task_duration? Right after importing the libraries.
+1. How many functions are defined? There are seven functions defined.
+1. What are the function names? create_table, drop_table, insert_pet, process_one, process_two, process_three, recreate_database
+1. In general, what does each function do? Create_table connects to a database and creates a table of pets.  Drop_table drops the table if pets exist.  Insert_pet inserts the different pets into the database.  The process functions use the insert_pet function to choose the different pets to insert into the database.  Recreate_database drops "tabble pets" and creates "table pets".  
+1. Where does the execution begin? It starts after we define the functions.  
+1. How many processes do we start?  We start 3 processes.
+1. How many records does each process insert?  Each process inserts two pets.  
 
 In this first run, we start 3 processes, 
 each inserting 2 records into a shared database 
