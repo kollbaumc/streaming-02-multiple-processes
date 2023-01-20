@@ -16,7 +16,7 @@ socket_type = socket.SOCK_DGRAM
 sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM) 
 
 # read from a file to get some fake data
-input_file = open("batchfile_0_farenheit.csv", "r")
+input_file = open("student_performance_new.csv", "r")
 
 # use the built0in sorted() function to get them in chronological order
 reversed = sorted(input_file)
@@ -26,11 +26,11 @@ reader = csv.reader(reversed, delimiter=",")
 
 for row in reader:
     # read a row from the file
-    Year, Month, Day, Time, TempF = row
+    number, race, parent_level_of_education, lunch, test_preparation_course, math_percentage, reading_score_percentage, writing_score_percentage, sex = row
 
     # use an fstring to create a message from our data
     # notice the f before the opening quote for our string?
-    fstring_message = f"[{Year}, {Month}, {Day}, {Time}, {TempF}]"
+    fstring_message = f"[{number}, {race}, {parent_level_of_education}, {lunch}, {test_preparation_course}, {math_percentage}, {reading_score_percentage}, {writing_score_percentage}, {sex}]"
     
     # prepare a binary (1s and 0s) message to stream
     MESSAGE = fstring_message.encode()
