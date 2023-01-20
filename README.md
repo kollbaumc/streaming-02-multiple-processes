@@ -97,15 +97,15 @@ Do a web search to find helpful videos on anything that seems confusing.
 Python has pretty helpful error messages. 
 When you get an error, read them carefully. 
 
-- What error do you get?
-- Can you tell what line it was executing when it failed?
+- What error do you get?  When running the code it said database is locked.  
+- Can you tell what line it was executing when it failed?  It failed when process two was adding cooper the rabbit.
 
 
 ## Database Is Locked Error
 
 Do a web search on the sqlite3 'database is locked' error.
 
-- What do you learn?
+- What do you learn?  This occurs when another connection is accessing the database.  Sqlite can't handle a high level of concurrency.  
 - Once a process fails, it crashes the main process and everything stops. 
 
 ## Deadlock
