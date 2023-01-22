@@ -8,7 +8,7 @@ so they can interfere with each other.
 
 Run the app several times and notice the 
 orders that events occur. 
-Is the order predictable?
+Is the order predictable?  The order changes on multiple runs.
 
 Modify the code to make each task take longer. 
 When the task duration is 3 (seconds),
@@ -42,7 +42,7 @@ Now - increase the task duration (representing
       the time the task has the database 
       tied up during an insert statement).
 How well do the multiple, concurrent processes share a database 
-when each task can take more time? 
+when each task can take more time? Its doesn't work well.  The databases lock.  
 How can we let multiple processes share a resource
 without interfering with each other?
 """
