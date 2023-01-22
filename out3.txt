@@ -55,4 +55,6 @@ Traceback (most recent call last):
     cur.execute(sql)
 sqlite3.OperationalError: database is locked
 
+Increasing the time results in a locked database.  
+
 (c:\Users\chris\Documents\44671StreamingData\streaming-02-multiple-processes\.conda) C:\Users\chris\Documents\44671StreamingData\streaming-02-multiple-processes>

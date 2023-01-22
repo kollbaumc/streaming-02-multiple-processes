@@ -119,3 +119,4 @@ with no process able to move forward and make progress.
 ## Learn More
 
 Check out Wikipedia's article on deadlock and other sources to learn how to prevent and avoid locking issues in concurrent processes. 
+One way to prevent deadlock is removing the mutual exclusion condition which is when you don't give any process exclusive access to a resource.  This won't work unless resources are spooled and, even if spooled it can still result in deadlock.  Another is releasing the hold conditions on processes requiring processes to access all resources the process needs before starting up, which is impractical in many instances.  Another is getting rid of the preemption condition, but this seems to cause a number of problems.  Lastly, avoiding circular wait is another way to prevent deadlock.  You can also use a deadlock avoidance algorithm.  The most common one is Banker's Algorithm.  This info can be found on the deadlock page in Wikipedia.  

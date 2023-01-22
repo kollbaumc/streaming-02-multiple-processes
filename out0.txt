@@ -41,6 +41,10 @@ P3 getting ready to insert Felix the Cat.
 P3 ADDED Felix the Cat.
 
 SUCCESS! All processes are done.
+
+Running this multiple times seems to change the order in which the animals are processed.  
+If a process dies, it would seem as though information would be lost.  
+
 Now - increase the task duration (representing
       the time the task has the database
       tied up during an insert statement).

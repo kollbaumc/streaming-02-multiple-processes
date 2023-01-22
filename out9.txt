@@ -1,0 +1,76 @@
+Microsoft Windows [Version 10.0.22000.1455]
+(c) Microsoft Corporation. All rights reserved.
+
+C:\Users\chris\Documents\44671StreamingData\streaming-02-multiple-processes>activate
+
+(base) C:\Users\chris\Documents\44671StreamingData\streaming-02-multiple-processes>conda activate c:\Users\chris\Documents\44671StreamingData\streaming-02-multiple-processes\.conda
+
+(c:\Users\chris\Documents\44671StreamingData\streaming-02-multiple-processes\.conda) C:\Users\chris\Documents\44671StreamingData\streaming-02-multiple-processes>c:/Users/chris/Documents/44671StreamingData/streaming-02-multiple-processes/.conda/python.exe c:/Users/chris/Documents/44671StreamingData/streaming-02-multiple-processes/process_streaming_kollbaum.py
+Sent: b"[0, group B, bachelor's degree, standard, none, 0.72, 0.72, 0.74, F]" on port 9999.
+Sent: b'[1, group C, some college, standard, completed, 0.69, 0.9, 0.88, F]' on port 9999.
+Sent: b"[10, group C, associate's degree, standard, none, 0.58, 0.54, 0.52, M]" on port 9999.
+Sent: b'[100, group B, some college, standard, none, 0.79, 0.67, 0.67, M]' on port 9999.
+Sent: b"[101, group D, bachelor's degree, standard, completed, 0.68, 0.74, 0.74, M]" on port 9999.
+Sent: b"[102, group D, associate's degree, standard, none, 0.85, 0.91, 0.89, F]" on port 9999.
+Sent: b'[103, group B, high school, standard, completed, 0.6, 0.44, 0.47, M]' on port 9999.
+Sent: b'[104, group C, some college, standard, completed, 0.98, 0.86, 0.9, M]' on port 9999.
+Sent: b'[105, group C, some college, standard, none, 0.58, 0.67, 0.72, F]' on port 9999.
+Sent: b"[106, group D, master's degree, standard, none, 0.87, 1.0, 1.0, F]" on port 9999.
+Sent: b"[107, group E, associate's degree, standard, completed, 0.66, 0.63, 0.64, M]" on port 9999.
+Sent: b"[108, group B, associate's degree, free/reduced, none, 0.52, 0.76, 0.7, F]" on port 9999.
+Sent: b'[109, group B, some high school, standard, none, 0.7, 0.64, 0.72, F]' on port 9999.
+Sent: b"[11, group D, associate's degree, standard, none, 0.4, 0.52, 0.43, M]" on port 9999.
+Sent: b"[110, group D, associate's degree, free/reduced, completed, 0.77, 0.89, 0.98, F]" on port 9999.
+Sent: b'[111, group C, high school, standard, none, 0.62, 0.55, 0.49, M]' on port 9999.
+Sent: b"[112, group A, associate's degree, standard, none, 0.54, 0.53, 0.47, M]" on port 9999.
+Sent: b'[113, group D, some college, standard, none, 0.51, 0.58, 0.54, F]' on port 9999.
+Sent: b"[114, group E, bachelor's degree, standard, completed, 0.99, 1.0, 1.0, F]" on port 9999.
+Sent: b'[115, group C, high school, standard, none, 0.84, 0.77, 0.74, M]' on port 9999.
+Sent: b"[116, group B, bachelor's degree, free/reduced, none, 0.75, 0.85, 0.82, F]" on port 9999.
+Sent: b"[117, group D, bachelor's degree, standard, none, 0.78, 0.82, 0.79, F]" on port 9999.
+Sent: b'[118, group D, some high school, standard, none, 0.51, 0.63, 0.61, F]' on port 9999.
+Sent: b'[119, group C, some college, standard, none, 0.55, 0.69, 0.65, F]' on port 9999.
+Sent: b'[12, group B, high school, standard, none, 0.65, 0.81, 0.73, F]' on port 9999.
+Sent: b"[120, group C, bachelor's degree, standard, completed, 0.79, 0.92, 0.89, F]" on port 9999.
+Sent: b"[121, group B, associate's degree, standard, completed, 0.91, 0.89, 0.92, M]" on port 9999.
+Sent: b'[122, group C, some college, standard, completed, 0.88, 0.93, 0.93, F]' on port 9999.
+Sent: b'[123, group D, high school, free/reduced, none, 0.63, 0.57, 0.56, M]' on port 9999.
+Sent: b'[124, group E, some college, standard, none, 0.83, 0.8, 0.73, M]' on port 9999.
+Sent: b'[125, group B, high school, standard, none, 0.87, 0.95, 0.86, F]' on port 9999.
+Sent: b'[126, group B, some high school, standard, none, 0.72, 0.68, 0.67, M]' on port 9999.
+Sent: b'[127, group D, some college, standard, completed, 0.65, 0.77, 0.74, M]' on port 9999.
+Sent: b"[128, group D, master's degree, standard, none, 0.82, 0.82, 0.74, M]" on port 9999.
+Sent: b"[129, group A, bachelor's degree, standard, none, 0.51, 0.49, 0.51, F]" on port 9999.
+Sent: b'[13, group A, some college, standard, completed, 0.78, 0.72, 0.7, M]' on port 9999.
+Sent: b"[130, group D, master's degree, standard, none, 0.89, 0.84, 0.82, M]" on port 9999.
+Sent: b'[131, group C, some high school, free/reduced, completed, 0.53, 0.37, 0.4, M]' on port 9999.
+Sent: b'[132, group E, some college, free/reduced, completed, 0.87, 0.74, 0.7, M]' on port 9999.
+Sent: b'[133, group C, some college, standard, completed, 0.75, 0.81, 0.84, F]' on port 9999.
+Sent: b"[134, group D, bachelor's degree, free/reduced, completed, 0.74, 0.79, 0.75, M]" on port 9999.
+Sent: b"[135, group C, bachelor's degree, standard, none, 0.58, 0.55, 0.48, M]" on port 9999.
+Sent: b'[136, group B, some high school, standard, completed, 0.51, 0.54, 0.41, M]' on port 9999.
+Sent: b'[137, group E, high school, standard, none, 0.7, 0.55, 0.56, M]' on port 9999.
+Sent: b"[138, group C, associate's degree, standard, none, 0.59, 0.66, 0.67, F]" on port 9999.
+Sent: b'[139, group D, some college, standard, completed, 0.71, 0.61, 0.69, M]' on port 9999.
+Sent: b"[14, group A, master's degree, standard, none, 0.5, 0.53, 0.58, F]" on port 9999.
+Sent: b'[140, group D, some high school, standard, none, 0.76, 0.72, 0.71, F]' on port 9999.
+Sent: b'[141, group C, some college, free/reduced, none, 0.59, 0.62, 0.64, F]' on port 9999.
+Sent: b'[142, group E, some college, free/reduced, completed, 0.42, 0.55, 0.54, F]' on port 9999.
+Sent: b'[143, group A, high school, standard, none, 0.57, 0.43, 0.47, M]' on port 9999.
+Sent: b'[144, group D, some college, standard, none, 0.88, 0.73, 0.78, M]' on port 9999.
+Sent: b'[145, group C, some college, free/reduced, none, 0.22, 0.39, 0.33, F]' on port 9999.
+Sent: b'[146, group B, some high school, standard, none, 0.88, 0.84, 0.75, M]' on port 9999.
+Sent: b"[147, group C, associate's degree, free/reduced, none, 0.73, 0.68, 0.66, M]" on port 9999.
+Sent: b"[148, group D, bachelor's degree, standard, completed, 0.68, 0.75, 0.81, F]" on port 9999.
+Sent: b"[149, group E, associate's degree, free/reduced, completed, 1.0, 1.0, 0.93, M]" on port 9999.
+Sent: b'[15, group C, some high school, standard, none, 0.69, 0.75, 0.78, F]' on port 9999.
+Sent: b'[150, group A, some high school, standard, completed, 0.62, 0.67, 0.69, M]' on port 9999.
+Sent: b"[151, group A, bachelor's degree, standard, none, 0.77, 0.67, 0.68, M]" on port 9999.
+Sent: b"[152, group B, associate's degree, standard, completed, 0.59, 0.7, 0.66, F]" on port 9999.
+Sent: b"[153, group D, bachelor's degree, standard, none, 0.54, 0.49, 0.47, M]" on port 9999.
+Traceback (most recent call last):
+  File "c:\Users\chris\Documents\44671StreamingData\streaming-02-multiple-processes\process_streaming_kollbaum.py", line 43, in <module>
+    time.sleep(3)
+KeyboardInterrupt
+^C
+(c:\Users\chris\Documents\44671StreamingData\streaming-02-multiple-processes\.conda) C:\Users\chris\Documents\44671StreamingData\streaming-02-multiple-processes>  
