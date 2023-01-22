@@ -24,6 +24,7 @@ reversed = sorted(input_file)
 # create a csv reader for our comma delimited data
 reader = csv.reader(reversed, delimiter=",")
 
+
 for row in reader:
     # read a row from the file
     number, race, parent_level_of_education, lunch, test_preparation_course, math_percentage, reading_score_percentage, writing_score_percentage, sex = row
@@ -41,3 +42,5 @@ for row in reader:
 
     # sleep for a few seconds
     time.sleep(3)
+
+
